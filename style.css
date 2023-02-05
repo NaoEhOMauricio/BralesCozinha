@@ -232,13 +232,13 @@ section#img03{
 footer{
   
     background-color: var(--corrisco);
-   
+    display: flex;
+    position: fixed;
     color: var(--corpreen); 
-    min-width: 100%;
+    width: 100vw;
    
     padding: 10px;
-
-    position: fixed;
+    border-radius: 10px;
     bottom: 0px;
 }
 footer ul{
@@ -259,11 +259,12 @@ footer ul > li > a{
     font-family: var(--fontelogo);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.351);
     border-radius: 5px;
+    text-align: center;
 }
 footer ul > li > a:hover{
     transition: 0.5s;
     color: var(--cortracado);
-    background-color: var(--corpreen);
+    background-image: linear-gradient(to top, var(--corborda), var(--corpreen));
    
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.249);
     
