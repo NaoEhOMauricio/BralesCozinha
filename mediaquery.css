@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@media screen and (min-width: 308px) {
+    header{
+        height: 370px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header{
+        height: 400px;
+    }
+}
+@media screen and (min-width: 996px) {
+    header{
+        height: 450px;
+    }
+}

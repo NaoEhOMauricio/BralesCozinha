@@ -1,0 +1,301 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+:root{
+    --corborda: #736C4D;
+    --cortracado: #261D01;
+    --corpreen: #D9CDA9;
+    --corrisco: #261201;
+    --fontelogo: 'Lobster';
+    --fontecorpo: 'Pathway Gothic One';
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html, body {
+    
+    background-image: url(imagem/fundo\ teste.jpg);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-width: 320px;
+}
+
+
+
+    
+
+header{
+    display: block;
+    font-family: 'Lobster', 'sans-serif';
+ background-color: var(--corpreen);
+ min-width: 300px;
+ text-align: center;
+ box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.375);
+ height:400px;
+
+}
+header > h1{
+    font-family: 'Lobster', 'sans-serif';
+    font-size: 10vh;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.458);
+
+   
+}
+header > h1 > a{
+    text-decoration: none;
+    color: black;
+}
+
+header img{
+    width: 200px;
+    padding: 0px;
+    float: center;
+}
+#iburguer{
+    position: relative;
+    margin: auto;
+    width: 83vw;
+    background-color: #261201;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.585);
+    
+
+}
+#iburguer:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+
+menu{
+    padding:10px ;
+    display: none;
+ padding: 2px;
+ position: relative;
+
+  
+}
+menu > ul{
+    display: block;
+    margin: auto;
+   border-radius: 20px;
+ padding: 10px;
+   width: 75%;
+    background-color: #d9cda9;
+   
+
+    
+
+}
+menu > ul > li > a{
+    display: block;
+text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: var(--cortracado);
+    border: 1px solid #26120163;
+    border-radius: 15px;
+    font-style: italic;
+    box-shadow: 2px 2px 1px  #261d011e;
+    margin-top: 2px;    
+}
+menu a:hover{
+ 
+    color: wheat;
+    background-color: #26120161;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 1px black;
+    font-style: italic;
+    
+}
+section{
+    min-width: 300px;
+    max-width: 1024px;
+
+    background-color: white;
+    margin: auto;
+}
+section > h1{
+    font-family: 'Lobster', 'sans-serif';
+    margin-left: 15px;
+     padding: 10px;
+     text-indent: 10px;
+     font-size: 2em;
+     text-decoration: underline;
+}
+section > p{
+    font-family: var(--fontecorpo);
+   margin-left: 15px;
+    padding: 15px;
+    text-indent: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.399);
+    line-height: 1.5em;
+
+    font-size: 1.3em;
+    
+}
+section > h2{
+    font-family: 'Lobster', 'sans-serif';
+    margin-left: 15px;
+     padding: 10px;
+     text-indent: 10px;
+     font-size: 1.3em;
+     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.399);
+    text-decoration: underline;
+
+}
+section.normal{
+    margin: 0px;
+    background-color: #261D01;
+   color: var(--corpreen);
+    padding: 10px;
+   
+    min-width: 300px;
+    max-width: 1024px;
+    
+
+}
+section.img{
+    background-color: white;
+    min-width: 100vh;
+    margin: 0px;
+    padding: vh;
+    padding-top: 18vh;
+    padding-bottom: 18vh;
+    min-width: 300px;
+    max-width: 1024px;
+
+}
+main{
+    padding-top: 10px;
+    margin: auto;
+    max-width: 1024px;
+    
+
+}
+
+
+
+div.maxwidth{
+    max-width:80%;
+    min-width: 320px;
+    margin:auto;
+}
+section.img{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.262);
+    
+}
+Section#img00{
+    
+    background-position: right bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(imagem/index/bolo.jpeg);
+}
+section#img01{
+    background-image: url(imagem/index/salgado.jpg);
+    background-size: cover;
+    
+    background-attachment: fixed;
+    background-position: bottom left;
+}
+section#img02{
+    background-image: url(imagem/index/pizza\ 1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    
+    
+}
+section#img03{
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(imagem/index/doces.jpg);
+    background-position: center center;
+    margin-bottom: 15px;
+}
+   
+
+
+footer{
+  
+    background-color: var(--corrisco);
+   
+    color: var(--corpreen); 
+    min-width: 100%;
+   
+    padding: 10px;
+
+    position: fixed;
+    bottom: 0px;
+}
+footer ul{
+    
+    display: inline-flex;
+    margin:auto;
+  
+    
+}
+footer ul > li{
+    padding: 10px;
+}
+footer ul > li > a{
+    background-color: var(--corborda);
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fontelogo);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.351);
+    border-radius: 5px;
+}
+footer ul > li > a:hover{
+    transition: 0.5s;
+    color: var(--cortracado);
+    background-color: var(--corpreen);
+   
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.249);
+    
+}
+/* ---------------PAGINA BOLOS------------------------------------- */
+
+.container-galeria{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 300px;
+}
+.item-galeria{
+    height: 550px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.item-galeria .img-galeria{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+.item-galeria .title-galeria{
+    position: absolute;
+    background-color: var(--corrisco);
+    left: 0;
+width: 100%;
+    bottom: 0;
+    color: wheat;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: inset 1px 1px 3px 2px rgba(0, 0, 0, 0.249);
+}
