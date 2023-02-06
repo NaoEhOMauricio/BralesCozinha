@@ -19,6 +19,11 @@
         height: 450px;
     }
 }
+@media screen and (min-width: 1024px) {
+    header{
+        height: 359px;
+    }
+}
 @media screen and (min-width: 1200px) {
     header{
         height: 369px;
